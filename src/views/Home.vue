@@ -1,0 +1,104 @@
+<template>
+  <div class="main">
+    <hero
+      :title="'Digital Twin Anbieter | Marktübersicht'"
+      :sub="'Übersicht verschiedener Digital Twin Softwarelösungen'"
+    />
+    <div class="container">
+      <div class="header">
+        <div class="flex-item">
+          <h2>Liste der Digital Twin Anbieter</h2>
+        </div>
+        <div class="flex-item">
+          <p>
+            Hier finden Sie eine
+            <b>Übersicht der Digital Twin Softwarelösungen auf dem Markt</b>.
+            Sie können die Suche durch Setzen der <b>Filter</b> einschränken.
+          </p>
+        </div>
+      </div>
+
+      <filters
+        v-on:filters="getTags"
+        :pagiInfo="pagInfoData"
+        :filterPro="filterNum"
+      />
+      <providers
+        :filterTags="filterTags"
+        @pagInfoUpdate="pagInfo"
+        @filterPro="updateFilterNum"
+      />
+    </div>
+  </div>
+</template>
+
+<script>
+import Hero from "../components/Hero";
+import Filters from "../components/Filters";
+import Providers from "../components/Providers";
+
+export default {
+  name: "home",
+
+  components: {
+    Hero,
+    Filters,
+    Providers,
+  },
+
+  data() {
+    return {
+      filterTags: [],
+      filterNum: [],
+      pagInfoData: "",
+    };
+  },
+
+  methods: {
+    getTags(value) {
+      this.filterTags = value;
+    },
+
+    // getOptTag(value) {
+    //   this.OptTags = value;
+    // },
+
+    pagInfo(pagInfo) {
+      this.pagInfoData = pagInfo;
+    },
+
+    updateFilterNum(filterPro) {
+      this.filterNum = filterPro;
+    },
+  },
+};
+</script>
+
+<style scoped>
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.header h2 {
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+  width: 100%;
+  min-width: 200px;
+}
+
+.header p {
+  color: rgb(116, 116, 116);
+  font-size: 16px;
+  width: 100%;
+  min-width: 500px;
+}
+
+.flex-item {
+  flex: 1;
+}
+</style>

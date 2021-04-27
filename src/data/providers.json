@@ -1,0 +1,1162 @@
+[
+    {
+      "id": "1",
+      "anbieter": "ABSOLUTE Software GmbH",
+      "angebot": "Consulting + Software + Hardware",
+      "wird_der_software_betrieb_angebote": "Ja",
+      "spezialisierung": ["Virtual Reality / Argumented Reality"],
+      "land": "Deutschland",
+      "funktionsumfang": [
+        "Product-Lifecycle-Management",
+        "Robotik",
+        "Künstliche Intelligenz",
+        "Machine Learning",
+        "Visualisierung / Simulation"
+      ],
+      "noCode_plattform": "Ja",
+      "preis": "1.500€ - 10.000€",
+      "cloud_optmiert": "Ja",
+      "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+      "können_weitere_systeme_angebunden_werden": "Ja",
+      "erstellungszeitpunkt": "Nach physischen Zwilling"
+    },
+    {
+      "id": "2",
+      "anbieter": "ANSYS, Ins",
+      "angebot": "Consulting + Software + Cloud",
+      "wird_der_software_betrieb_angebote": "Nein",
+      "spezialisierung": [
+        "Automobil",
+        "Energie",
+        "Gesundheitswesen",
+        "High - Tech",
+        "Luft- & Raumfahrt",
+        "Produktion",
+        "Verteidigung"
+      ],
+      "land": "United States",
+      "funktionsumfang": [
+        "Akkustische Simulation",
+        "Digital Engeenering",
+        "Product-Lifecycle-Management",
+        "Visualisierung / Simulation"
+      ],
+      "noCode_plattform": "Ja",
+      "preis": "500$ - 15.000$",
+      "cloud_optmiert": "Ja",
+      "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+      "können_weitere_systeme_angebunden_werden": "Ja",
+      "erstellungszeitpunkt": "Nach physischen Zwilling"
+    },
+    {
+      "id": "3",
+      "anbieter": "Akselos",
+      "angebot": "Consulting + Software + Cloud",
+      "wird_der_software_betrieb_angebote": "Nein",
+      "spezialisierung": [
+        "Energie",
+        "Luft- & Raumfahrt",
+        "Kommunikation",
+        "Versorgungswirtschaft"
+      ],
+      "land": "Schweiz",
+      "funktionsumfang": [
+        "Design",
+        "Digitalisierung von Geschäftsprozessen",
+        "Visualisierung / Simulation"
+      ],
+      "noCode_plattform": "Ja",
+      "preis": "n.A.",
+      "cloud_optmiert": "Ja",
+      "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+      "können_weitere_systeme_angebunden_werden": "ja",
+      "erstellungszeitpunkt": "Nach physischen Zwilling"
+    },
+    {
+        "id": "4",
+        "anbieter": "aPriori",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung":  [
+          "Automobil",
+          "Elektrotechnik",
+          "High - Tech",
+          "Luft- & Raumfahrt",
+          "Maschinen- & Anlagenbau",
+          "Verteidigung"
+        ],
+        "land": "United States",
+        "funktionsumfang": [
+          "Design",
+          "Digitalisierung von Geschäftsprozessen",
+          "Digitale Fabrik",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "5",
+        "anbieter": "ASCon Systems GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Immobilienmanagement",
+          "Infrastruktur",
+          "Logistik",
+          "Luft- & Raumfahrt",
+          "Maschinen- & Anlagenbau",
+          "Produktion"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Enterprise Information Management",
+          "Datenanalyse & Systemlösung"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "6",
+        "anbieter": "Atos SE",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Gesundheitswesen",
+          "Kommunikation",
+          "Öffentlicher Sektor",
+          "Produktion",
+          "Verteidigung"
+        ],
+        "land": "Frankreich",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Datenanalyse & Systemlösung",
+          "Machine Learning",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "7",
+        "anbieter": "Audi AG",
+        "angebot": "Consulting + Software + Hardware",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": ["Automobil"],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "10€",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "8",
+        "anbieter": "Autodesk GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Baubranche",
+          "Produktion",
+          "Kommunikation",
+          "Infrastruktur",
+          "Virtual Reality / Argumented Reality"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Design",
+          "Digitalisierung von Geschäftsprozessen",
+          "Digitale Fabrik",
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "84€ - 6.052€ / Jahr",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "9",
+        "anbieter": "Bayer GmbH & Ko.KG",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",
+          "Maschinen- & Anlagenbau",
+          "Produktion"        
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digital Engeenering",
+          "Digitale Fabrik",
+          "Visualisierung / Simulation"        
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "1.500€ - 30.000€",
+        "cloud_optmiert": "n.A.",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "10",
+        "anbieter": "Bentley Systems Germany GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Baubranche",
+        "Energie",
+        "Geschäftsprozesse",
+        "Immobilienmanagement",
+        "Infrastruktur",
+        "Kommunikation",
+        "Produktion",
+        "Versorgungswirtschaft"
+      ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+         "Digitalisierung von Geschäftsprozessen",
+          "Künstliche Intelligenz",
+          "Machine Learning",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "11",
+        "anbieter": "Bosch Sicherheitssysteme GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Immobilienmanagement"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digitales Gebäudemanagemnt",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "12",
+        "anbieter": "Business Operation Systems GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",          
+          "Kommunikation"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen"         
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "13",
+        "anbieter": "CADFEM GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Elektrotechnik",
+        "Gesundheitswesen",
+        "Maschinen- & Anlagenbau"
+      ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Datenanalyse & Systemlösung",
+          "Enterprise Information Management"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "1.500€ - 10.000€",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "14",
+        "anbieter": "CENIT AG",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Luft- & Raumfahrt",
+          "Maschinen- & Anlagenbau",
+          "Öffentlicher Sektor",
+          "Verteidigung"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Enterprise Information Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "15",
+        "anbieter": "CONTACT Software GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Elektrotechnik",
+          "Gesundheitswesen",
+          "Infrastruktur",
+          "Logistik",
+          "Maschinen- & Anlagenbau"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Data Sharing",
+          "Digitalisierung von Geschäftsprozessen",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "16",
+        "anbieter": "CONWEAVER GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",
+          "Infrastruktur",
+          "Logistik"
+      ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "17",
+        "anbieter": "Dassault Systèmes",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Biowissenschaft",
+          "Öffentlicher Sektor",
+          "Produktion"
+        ],
+        "land": "Frankreich",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "10.000€ - 100 Millionen €",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "18",
+        "anbieter": "Deutsches Zentrum für Luft- und Raumfahrt e. V.",
+        "angebot": "Consulting + Software + Hardware",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Luft- & Raumfahrt"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "19",
+        "anbieter": "DHL Supply Chain",
+        "angebot": "Consulting + Software + Hardware",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Infrastruktur",
+          "Logistik"
+      ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Aftermarket-Dienstleistungen",
+          "Digitale Fabrik"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "20",
+        "anbieter": "Drees & Sommer SE",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",
+          "Biowissenschaft",
+          "Energie",
+          "Gesundheitswesen",
+          "Infrastruktur",
+          "Logistik",
+          "Luft- & Raumfahrt",
+          "Öffentlicher Sektor"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digitales Gebäudemanagemnt",
+          "Digitalisierung von Geschäftsprozessen"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "21",
+        "anbieter": "EDAG Production Solutions GmbH & Co. KG",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Infrastruktur",
+          "Logistik",
+          "Luft- & Raumfahrt",
+          "Produktion",
+          "Verteidigung"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Digital Engeenering",          
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "22",
+        "anbieter": "elunic AG",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Maschinen- & Anlagenbau",
+          "Produktion"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Data Sharing",
+          "Enterprise Information Management",
+          "Machine Learning"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "23",
+        "anbieter": "Emerson Electric Co.",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Energie",
+          "Geschäftsprozesse",
+          "Maschinen- & Anlagenbau"     
+        ],
+        "land": "United States",
+        "funktionsumfang": [
+          "Digitale Fabrik",
+          "Product-Lifecycle-Management"    
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "24",
+        "anbieter": "Etteplan Deutschland GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Baubranche",
+          "Gesundheitswesen",
+          "Infrastruktur"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Aftermarket-Dienstleistungen",
+          "Digitale Fabrik",
+          "Enterprise Information Management",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "25",
+        "anbieter": "evosoft GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",
+          "Energie",
+          "Geschäftsprozesse",
+          "Gesundheitswesen",
+          "Infrastruktur",
+          "Logistik",
+          "Maschinen- & Anlagenbau"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Enterprise Information Management"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "26",
+        "anbieter": "F.EE GmbH",
+        "angebot": "Consulting + Software + Hardware",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",
+          "Logistik",
+          "Maschinen- & Anlagenbau"     
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digitale Fabrik",
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "ab 15.000€",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "27",
+        "anbieter": "General Electric",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",
+          "Biowissenschaft",
+          "Elektrotechnik",
+          "Energie",
+          "Kommunikation",
+          "Versorgungswirtschaft"
+        ],
+        "land": "United States",
+        "funktionsumfang": [
+          "Digitale Fabrik",
+          "Enterprise Information Management",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "n.A.",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "28",
+        "anbieter": "HDE Consult GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil",
+          "Luft- & Raumfahrt"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digitale Fabrik",
+          "Digitalisierung von Geschäftsprozessen",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "29",
+        "anbieter": "IBM Deutschland GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Baubranche",
+          "Infrastruktur",
+          "Produktion",
+          "Versorgungswirtschaft"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digitalisierung von Geschäftsprozessen",
+          "Digitale Fabrik",
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "30",
+        "anbieter": "in2sight GmbH",
+        "angebot": "Consulting + Software + Hardware",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Maschinen- & Anlagenbau"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "5€ - 700€",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "31",
+        "anbieter": "Ingenics AG",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Agrarwirtschaft",
+          "Automobil",
+          "Gesundheitswesen",
+          "Logistik",
+          "Luft- & Raumfahrt",
+          "Maschinen- & Anlagenbau"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Künstliche Intelligenz",
+          "Machine Learning",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "32",
+        "anbieter": "ipolog GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Agrarwirtschaft",
+          "Automobil",
+          "Baubranche",
+          "Produktion"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digitalisierung von Geschäftsprozessen",
+          "Visualisierung / Simulation" 
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "33",
+        "anbieter": "LEONI Bordnetz-Systeme GmbH",
+        "angebot": "Consulting + Software + Hardware",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Automobil"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "34",
+        "anbieter": "Lufthansa Technik",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": [
+          "Luft- & Raumfahrt"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Digitalisierung von Geschäftsprozessen",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "35",
+        "anbieter": "Microsoft Corporation",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Energie",
+          "Immobilienmanagement",
+          "Infrastruktur",
+         "Luft- & Raumfahrt"
+         ],
+        "land": "United States",
+        "funktionsumfang": [
+          "Digitale Fabrik",
+          "Digitales Gebäudemanagemnt",
+          "Digitalisierung von Geschäftsprozessen",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "25€ - 850 / Monat",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "36",
+        "anbieter": "msg systems AG",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Biowissenschaft",
+          "Gesundheitswesen",
+          "Infrastruktur",
+          "Kommunikation",
+          "Öffentlicher Sektor"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Product-Lifecycle-Management"        
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A:",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "37",
+        "anbieter": "Mvoid Technologies GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": ["Audiobranche"],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Akkustische Simulation",
+          "Design",
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "38",
+        "anbieter": "ONTOLIS GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Gesundheitswesen",
+          "Luft- & Raumfahrt"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Data Sharing",
+          "Enterprise Information Management",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "39",
+        "anbieter": "Parametric Technology GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Biowissenschaft",
+          "Elektrotechnik",
+          "Geschäftsprozesse",
+          "Luft- & Raumfahrt",
+          "Maschinen- & Anlagenbau",
+          "Produktion",
+          "Versorgungswirtschaft"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",	
+          "Digitalisierung von Geschäftsprozessen",
+          "Digitale Fabrik",
+          "Digital Engeenering",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "40",
+        "anbieter": "SAP Deutschland SE & Co. KG",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "High - Tech",
+          "Maschinen- & Anlagenbau"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "38€ - 1.140€ / Monat pro User",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "41",
+        "anbieter": "SG-Engineering GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Ja",
+        "spezialisierung": ["Maschinen- & Anlagenbau"],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Digitale Fabrik",
+          "Digitales Gebäudemanagemnt",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "42",
+        "anbieter": "Siemens AG",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Elektrotechnik",
+          "Geschäftsprozesse",
+          "Infrastruktur",
+          "Produktion",
+          "Maschinen- & Anlagenbau"          
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Machine Learning",
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation" 
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "ab 450€ / Monat",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "43",
+        "anbieter": "Software AG",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Energie",
+          "Geschäftsprozesse",
+          "Maschinen- & Anlagenbau",
+          "Öffentlicher Sektor",
+          "Produktion"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "ab 100€ / Monat pro User",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "44",
+        "anbieter": "Synergeticon GmbH",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Luft- & Raumfahrt",
+          "Versorgungswirtschaft"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Künstliche Intelligenz",
+          "Robotik",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "45",
+        "anbieter": "Ternary GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": ["Internet of Things Apps"],
+        "land": "Schweiz",
+        "funktionsumfang": [
+          "Digitalisierung von Geschäftsprozessen",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "49€ - 2490€ / Monat",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "46",
+        "anbieter": "The AnyLogic Company",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Baubranche",
+          "Geschäftsprozesse",
+          "Gesundheitswesen",
+          "Infrastruktur",
+          "Logistik",
+          "Produktion",
+          "Versorgungswirtschaft",
+          "Verteidigung"
+        ],
+        "land": "United States",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Künstliche Intelligenz",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "1.500€ - 10.000€",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Vor physischen Zwilling"
+      },
+      {
+        "id": "47",
+        "anbieter": "TruPhysics GmbH",
+        "angebot": "Consulting + Software + Hardware",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": ["Virtual Reality / Argumented Reality"],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Product-Lifecycle-Management",
+          "Visualisierung / Simulation"
+        ],
+        "noCode_plattform": "Ja",
+        "preis": "n.A.",
+        "cloud_optmiert": "Nein",
+        "wo_wird_cloud_lösung_betrieben": "-",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "48",
+        "anbieter": "T-Systems Multimedia Solutions GmbH",
+        "angebot": "Consulting + Software + Cloud",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Automobil",
+          "Gesundheitswesen",
+          "Logistik",
+          "Öffentlicher Sektor",
+          "Produktion"
+        ],
+        "land": "Deutschland",
+        "funktionsumfang": [
+          "Datenanalyse & Systemlösung",
+          "Digitalisierung von Geschäftsprozessen",
+          "Product-Lifecycle-Management"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "ab 50€",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      },
+      {
+        "id": "49",
+        "anbieter": "Willow, Inc",
+        "angebot": "Consulting + Software",
+        "wird_der_software_betrieb_angebote": "Nein",
+        "spezialisierung": [
+          "Immobilienmanagement",
+          "Infrastruktur",
+          "Logistik"
+        ],
+        "land": "Australien",
+        "funktionsumfang": [
+          "Digitale Fabrik",
+          "Digitales Gebäudemanagemnt"
+        ],
+        "noCode_plattform": "Nein",
+        "preis": "n.A.",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+        "können_weitere_systeme_angebunden_werden": "Ja",
+        "erstellungszeitpunkt": "Nach physischen Zwilling"
+      }
+
+  ]
