@@ -52,7 +52,7 @@
                 href="#"
                 class="toggle_btn"
               >
-                {{ filter.limit_by === 4 ? "further" : "less" }}
+                {{ filter.limit_by === 4 ? "+ mehr" : "- weniger" }}
               </a>
             </ul>
           </div>
