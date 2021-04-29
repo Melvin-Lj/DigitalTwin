@@ -1,8 +1,10 @@
 [
     {
       "id": "1",
+      "link": "https://www.absolutereality.de/",
       "anbieter": "ABSOLUTE Software GmbH",
       "angebot": "Consulting + Software + Hardware",
+      "produktname": "ABSOLUTE Reality",
       "wird_der_software_betrieb_angebote": "Ja",
       "spezialisierung": ["Virtual Reality / Argumented Reality"],
       "land": "Deutschland",
@@ -22,8 +24,10 @@
     },
     {
       "id": "2",
+      "link": "https://www.ansys.com/de-de/products/digital-twin",
       "anbieter": "ANSYS, Ins",
       "angebot": "Consulting + Software + Cloud",
+      "produktname": "Ansys Twin Builder",
       "wird_der_software_betrieb_angebote": "Nein",
       "spezialisierung": [
         "Automobil",
@@ -50,8 +54,10 @@
     },
     {
       "id": "3",
-      "anbieter": "Akselos",
+      "link": "https://akselos.com/solutions/",
+      "anbieter": "Akselos SA.",
       "angebot": "Consulting + Software + Cloud",
+      "produktname": "Akselos",
       "wird_der_software_betrieb_angebote": "Nein",
       "spezialisierung": [
         "Energie",
@@ -74,8 +80,10 @@
     },
     {
         "id": "4",
-        "anbieter": "aPriori",
+        "link": "https://www.apriori.com/",
+        "anbieter": "aPriori Technologies",
         "angebot": "Consulting + Software",
+        "produktname": "aPriori Cost Insight",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung":  [
           "Automobil",
@@ -101,8 +109,10 @@
       },
       {
         "id": "5",
+        "link": "https://ascon-systems.de/digitaler-zwilling/ascon-digital-twin-technologie/",
         "anbieter": "ASCon Systems GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "ASCon Digital Twin",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -128,8 +138,10 @@
       },
       {
         "id": "6",
+        "link": "https://atos.net/en/solutions/atos-codex-connected-intelligence/smart-pharma#solutions",
         "anbieter": "Atos SE",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": " Process Digital Twin for Pharma",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Gesundheitswesen",
@@ -154,8 +166,10 @@
       },
       {
         "id": "7",
+        "link": "https://www.digitaltwin.audi/",
         "anbieter": "Audi AG",
         "angebot": "Consulting + Software + Hardware",
+        "produktname": "Audi Digital Twin",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": ["Automobil"],
         "land": "Deutschland",
@@ -171,8 +185,10 @@
       },
       {
         "id": "8",
+        "link": "https://www.autodesk.de/",
         "anbieter": "Autodesk GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "Autodesk Tandem",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Baubranche",
@@ -198,8 +214,10 @@
       },
       {
         "id": "9",
+        "link": "https://www.scansolutions.de/reverse-engineering/",
         "anbieter": "Bayer GmbH & Ko.KG",
         "angebot": "Consulting + Software",
+        "produktname": "Scansolutions",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",
@@ -221,8 +239,10 @@
       },
       {
         "id": "10",
+        "link": "https://www.bentley.com/de/products/product-line/digital-twins/itwin",
         "anbieter": "Bentley Systems Germany GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "iTwins",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Baubranche",
@@ -251,8 +271,10 @@
       },
       {
         "id": "11",
+        "link": "https://www.boschbuildingsolutions.com/de/de/news-und-events/digitalisierung/",
         "anbieter": "Bosch Sicherheitssysteme GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "Digitale Gebäudezwillinge von Bosch",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Immobilienmanagement"
@@ -271,8 +293,10 @@
       },
       {
         "id": "12",
+        "link": "https://top-logic.org/toplogic-the-automated-app-engine/",
         "anbieter": "Business Operation Systems GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "Top-Logic",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",          
@@ -292,8 +316,10 @@
       },
       {
         "id": "13",
+        "link": "https://www.cadfem.net/de/de/branchen-themen/themen/digitaler-zwilling.html",
         "anbieter": "CADFEM GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "eCADFEM Simulation",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Elektrotechnik",
@@ -315,8 +341,10 @@
       },
       {
         "id": "14",
+        "link": "https://www.cenit.com/de_DE/produkte-loesungen/plm/digitale-fabrik.html",
         "anbieter": "CENIT AG",
         "angebot": "Consulting + Software",
+        "produktname": "FASTSUITE",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -339,8 +367,10 @@
       },
       {
         "id": "15",
+        "link": "https://www.contact-software.com/de/elements/digital-product-application/digitaler-zwilling-digital-twin",
         "anbieter": "CONTACT Software GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "CONTACT Elements for IoT",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -365,8 +395,10 @@
       },
       {
         "id": "16",
+        "link": "https://www.conweaver.com/de/produkt",
         "anbieter": "CONWEAVER GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "Linksphere",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",
@@ -386,8 +418,10 @@
       },
       {
         "id": "17",
+        "link": "https://www.3ds.com/3dexperience/cloud/digital-transformation/digital-twin-technology",
         "anbieter": "Dassault Systèmes",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "3DEXPERIENC",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Biowissenschaft",
@@ -408,8 +442,10 @@
       },
       {
         "id": "18",
+        "link": "https://www.dlr.de/fa/Portaldata/17/Resources/dokumente/wissenschaftstag/2018/Digitaler_Zwilling-Anwendungsstudie_anhand_eines_Maintenance-Szenarios_Kaps.pdf",
         "anbieter": "Deutsches Zentrum für Luft- und Raumfahrt e. V.",
         "angebot": "Consulting + Software + Hardware",
+        "produktname": "MRO Assistenzsystem",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Luft- & Raumfahrt"
@@ -428,8 +464,10 @@
       },
       {
         "id": "19",
+        "link": "https://www.dhl.com/global-en/home/insights-and-innovation/thought-leadership/trend-reports/virtual-reality-digital-twins.html",
         "anbieter": "DHL Supply Chain",
         "angebot": "Consulting + Software + Hardware",
+        "produktname": "Digital Twins in Logistics",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Infrastruktur",
@@ -449,8 +487,10 @@
       },
       {
         "id": "20",
+        "link": "https://www.dreso.com/de/dreso/digital",
         "anbieter": "Drees & Sommer SE",
         "angebot": "Consulting + Software",
+        "produktname": "Dreso+",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",
@@ -476,8 +516,10 @@
       },
       {
         "id": "21",
+        "link": "https://www.feynsinn.de/leistungen/produktion/digitaler-zwilling/",
         "anbieter": "EDAG Production Solutions GmbH & Co. KG",
         "angebot": "Consulting + Software",
+        "produktname": "FEYNSINN",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -502,8 +544,10 @@
       },
       {
         "id": "22",
+        "link": "https://www.elunic.com/de/digitaler-zwilling/",
         "anbieter": "elunic AG",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "shopfloor.io",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Maschinen- & Anlagenbau",
@@ -524,8 +568,10 @@
       },
       {
         "id": "23",
+        "link": "https://www.emerson.com/de-de/automation/operations-business-management/dynamic-simulation/digital-twin-solutions",
         "anbieter": "Emerson Electric Co.",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "Mimic Simulation Software",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Energie",
@@ -546,8 +592,10 @@
       },
       {
         "id": "24",
+        "link": "https://www.etteplan.com/de/dienstleistungen/engineering-loesungen/digitaler-zwilling",
         "anbieter": "Etteplan Deutschland GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "Etteplan Data Solution for IoT",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Baubranche",
@@ -570,8 +618,10 @@
       },
       {
         "id": "25",
+        "link": "https://www.evosoft.com/themen/digital-twin/",
         "anbieter": "evosoft GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "evosoft",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",
@@ -597,8 +647,10 @@
       },
       {
         "id": "26",
+        "link": "https://www.fescreen-sim.de/fescreen-sim/digitaler-zwilling.html",
         "anbieter": "F.EE GmbH",
         "angebot": "Consulting + Software + Hardware",
+        "produktname": "fe.screen-sim",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",
@@ -620,8 +672,10 @@
       },
       {
         "id": "27",
+        "link": "https://www.ge.com/digital/applications/digital-twin",
         "anbieter": "General Electric",
         "angebot": "Consulting + Software",
+        "produktname": "GE Digital Twin",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",
@@ -646,8 +700,10 @@
       },
       {
         "id": "28",
+        "link": "https://hde-consult.com/leistungsspektrum/#digitalefabrika",
         "anbieter": "HDE Consult GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "DELMIA",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil",
@@ -668,8 +724,10 @@
       },
       {
         "id": "29",
+        "link": "https://www.ibm.com/de-de/products/digital-twin-exchange",
         "anbieter": "IBM Deutschland GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "IBM Digital Twin Exchange",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Baubranche",
@@ -693,8 +751,10 @@
       },
       {
         "id": "30",
+        "link": "https://game4automation.com/",
         "anbieter": "in2sight GmbH",
         "angebot": "Consulting + Software + Hardware",
+        "produktname": "Game4Automation",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Maschinen- & Anlagenbau"
@@ -713,8 +773,10 @@
       },
       {
         "id": "31",
+        "link": "https://www.ingenics.com/de/digitale-transformation/",
         "anbieter": "Ingenics AG",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "Pixel",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Agrarwirtschaft",
@@ -741,8 +803,10 @@
       },
       {
         "id": "32",
+        "link": "https://help.ipolog.ai/hc/de",
         "anbieter": "ipolog GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "ipolog 4",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Agrarwirtschaft",
@@ -764,8 +828,10 @@
       },
       {
         "id": "33",
+        "link": "https://www.leoni.com/de/unternehmen/digitalisierung/intelligente-kabelloesungen/",
         "anbieter": "LEONI Bordnetz-Systeme GmbH",
         "angebot": "Consulting + Software + Hardware",
+        "produktname": "LEONiQ",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Automobil"
@@ -784,8 +850,10 @@
       },
       {
         "id": "34",
+        "link": "https://www.lufthansa-technik.com/aviatar",
         "anbieter": "Lufthansa Technik",
         "angebot": "Consulting + Software",
+        "produktname": "AVIATAR",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": [
           "Luft- & Raumfahrt"
@@ -804,8 +872,10 @@
       },
       {
         "id": "35",
+        "link": "https://azure.microsoft.com/de-de/services/digital-twins/",
         "anbieter": "Microsoft Corporation",
         "angebot": "Consulting + Software",
+        "produktname": "Azure Digital Twins",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Energie",
@@ -829,8 +899,10 @@
       },
       {
         "id": "36",
+        "link": "https://www.msg.group/automotive/digitaler-zwilling",
         "anbieter": "msg systems AG",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "Digital Twin Readiness Assessment",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -855,8 +927,10 @@
       },
       {
         "id": "37",
+        "link": "https://mvoid-group.com/de/services/",
         "anbieter": "Mvoid Technologies GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "Mvoid-Service & -Software",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": ["Audiobranche"],
         "land": "Deutschland",
@@ -875,8 +949,10 @@
       },
       {
         "id": "38",
+        "link": "https://www.ontolis.com/de/products/ontolisBase.html",
         "anbieter": "ONTOLIS GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "ONTOLIS BASE",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -891,15 +967,17 @@
         ],
         "noCode_plattform": "Ja",
         "preis": "n.A.",
-        "cloud_optmiert": "Nein",
-        "wo_wird_cloud_lösung_betrieben": "-",
+        "cloud_optmiert": "Ja",
+        "wo_wird_cloud_lösung_betrieben": "Kunden",
         "können_weitere_systeme_angebunden_werden": "Ja",
         "erstellungszeitpunkt": "Nach physischen Zwilling"
       },
       {
         "id": "39",
+        "link": "https://www.ptc.com/de/industry-insights/digital-twin",
         "anbieter": "Parametric Technology GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "ThingWorx",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -928,8 +1006,10 @@
       },
       {
         "id": "40",
+        "link": "https://www.sap.com/germany/products/supply-chain-management/digital-twin.html",
         "anbieter": "SAP Deutschland SE & Co. KG",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "SAP Leonardo",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "High - Tech",
@@ -951,8 +1031,10 @@
       },
       {
         "id": "41",
+        "link": "https://www.sg-eng.de/unsere-vorgehensweise",
         "anbieter": "SG-Engineering GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "SG",
         "wird_der_software_betrieb_angebote": "Ja",
         "spezialisierung": ["Maschinen- & Anlagenbau"],
         "land": "Deutschland",
@@ -972,8 +1054,10 @@
       },
       {
         "id": "42",
+        "link": "https://new.siemens.com/de/de/unternehmen/stories/forschung-technologien/digitaler-zwilling/digital-twin.html",
         "anbieter": "Siemens AG",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "MindSphere",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Elektrotechnik",
@@ -999,8 +1083,10 @@
       },
       {
         "id": "43",
+        "link": "https://www.softwareag.com/de_de/customers/mittelstand-digital-transformation.html",
         "anbieter": "Software AG",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "ARIS Process Transformation and Management",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Energie",
@@ -1024,8 +1110,10 @@
       },
       {
         "id": "44",
+        "link": "https://synergeticon.de/",
         "anbieter": "Synergeticon GmbH",
         "angebot": "Consulting + Software",
+        "produktname": "Synergeticon Predict Engine",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Luft- & Raumfahrt",
@@ -1047,8 +1135,10 @@
       },
       {
         "id": "45",
+        "link": "https://iotify.io/",
         "anbieter": "Ternary GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "IoTIFY",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": ["Internet of Things Apps"],
         "land": "Schweiz",
@@ -1065,8 +1155,10 @@
       },
       {
         "id": "46",
+        "link": "https://www.anylogic.de/simulation-based-digital-twin-for-well-construction-process-optimization/",
         "anbieter": "The AnyLogic Company",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "AnyLogic",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Baubranche",
@@ -1094,8 +1186,10 @@
       },
       {
         "id": "47",
+        "link": "https://www.truphysics.com/kuenstliche-intelligenz/",
         "anbieter": "TruPhysics GmbH",
         "angebot": "Consulting + Software + Hardware",
+        "produktname": "TruPhysics AI Plattform",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": ["Virtual Reality / Argumented Reality"],
         "land": "Deutschland",
@@ -1113,8 +1207,10 @@
       },
       {
         "id": "48",
+        "link": "https://digital-commerce.t-systems-mms.com/themen/devops.html",
         "anbieter": "T-Systems Multimedia Solutions GmbH",
         "angebot": "Consulting + Software + Cloud",
+        "produktname": "DEVQOPS",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Automobil",
@@ -1138,8 +1234,10 @@
       },
       {
         "id": "49",
+        "link": "https://www.willowinc.com/product/",
         "anbieter": "Willow, Inc",
         "angebot": "Consulting + Software",
+        "produktname": "WillowTwin",
         "wird_der_software_betrieb_angebote": "Nein",
         "spezialisierung": [
           "Immobilienmanagement",

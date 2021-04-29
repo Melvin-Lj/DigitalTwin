@@ -9,12 +9,12 @@
               >"Ein Digital Twin wird durch den Einsatz von Sensoren, Internet
               of Things (IoT) und der Vernetzung mit Informationsquellen zum
               lebenden virtuellen Abbild eines realen Objektes."</i
-            ><br /><br />
-            Digitale Twins begleiten somit reale Objekte als Echtzeitkopien –
+            ><br><br>
+            Digitale Twins begleiten reale Objekte als Echtzeitkopien –
             beginnend mit ihrer Entstehung bis hin zu ihrer Entsorgung. Dabei
             werden digitale Produktinformationen mit realen Zustands- und
-            Verhaltensinformationen verknüpft.<br />
-            Mithilfe des digitalen Twins können Unternehmen Probleme frühzeitig
+            Verhaltensinformationen verknüpft.<br>
+            &#10149; Mithilfe des digitalen Twins können Unternehmen Probleme frühzeitig
             erkennen und Verbesserungen in Entwicklung, Produktion, Vertrieb und
             Service anstoßen.
           </p>

@@ -6,9 +6,9 @@
         <span>Filteroptionen zur Auswahl</span>
       </button>
       {{ pagiInfo }}
-      <!-- <button>
-        <span>Sortierung: ID</span> <i class="fas fa-sort-down"></i>
-      </button> -->
+      <button>
+        <span>Sortierung: A-Z</span> <i class="fas fa-sort-down"></i>
+      </button>
     </div>
 
     <div class="filters-form" v-show="show">
@@ -24,6 +24,7 @@
                       <input
                         type="checkbox"
                         :value="checkbox.value"
+                        @change="ApplyFilter"
                         v-model="selectedTags"
                       />
                       <span class="checkbox__control">
@@ -52,7 +53,7 @@
                 href="#"
                 class="toggle_btn"
               >
-                {{ filter.limit_by === 4 ? "further" : "less" }}
+                {{ filter.limit_by === 4 ? "+ mehr" : "- weniger" }}
               </a>
             </ul>
           </div>
@@ -66,6 +67,7 @@
             class="filtetr-select"
             placeholder="Bitte auswählen"
             label="lable"
+            @input="ApplyFilter"
             :reduce="(lable) => lable.id"
             :options="selectFilters[0].value"
             v-model="selectedOptions[0].value"
@@ -80,6 +82,7 @@
             class="filtetr-select"
             placeholder="Bitte auswählen"
             label="lable"
+            @input="ApplyFilter"
             :reduce="(lable) => lable.id"
             :options="selectFilters[1].value"
             v-model="selectedOptions[1].value"
@@ -94,6 +97,7 @@
             class="filtetr-select"
             placeholder="Bitte auswählen"
             label="lable"
+            @input="ApplyFilter"
             :reduce="(lable) => lable.id"
             :options="selectFilters[2].value"
             v-model="selectedOptions[2].value"
@@ -108,6 +112,7 @@
             class="filtetr-select"
             placeholder="Bitte auswählen"
             label="lable"
+            @input="ApplyFilter"
             :reduce="(lable) => lable.id"
             :options="selectFilters[3].value"
             v-model="selectedOptions[3].value"
@@ -116,9 +121,9 @@
       </div>
     </div>
     <div class="filter-buttons">
-      <button @click="ApplyFilter" class="submit-btn" v-show="show">
+      <!-- <button @click="ApplyFilter" class="submit-btn" v-show="show">
         Filter anwenden
-      </button>
+      </button> -->
       <button @click="reset" class="rest-btn" v-show="show">
         Filter zurücksetzen
       </button>
@@ -711,23 +716,25 @@ export default {
     },
 
     ApplyFilter() {
-      if (
-        this.selectedTags.length > 0 ||
-        this.selectedOptions[0].value != null ||
-        this.selectedOptions[1].value != null ||
-        this.selectedOptions[2].value != null ||
-        this.selectedOptions[3].value != null
-      ) {
-        let allFilters = this.selectedTags.concat({
-          selectedOptions: this.selectedOptions,
-        });
+      setTimeout(() => {
+        if (
+          this.selectedTags.length > 0 ||
+          this.selectedOptions[0].value != null ||
+          this.selectedOptions[1].value != null ||
+          this.selectedOptions[2].value != null ||
+          this.selectedOptions[3].value != null
+        ) {
+          let allFilters = this.selectedTags.concat({
+            selectedOptions: this.selectedOptions,
+          });
 
-        this.$emit("filters", allFilters);
-      } else {
-        const empty = [];
+          this.$emit("filters", allFilters);
+        } else {
+          const empty = [];
 
-        this.$emit("filters", empty);
-      }
+          this.$emit("filters", empty);
+        }
+      }, 200);
     },
 
     reset() {
@@ -745,8 +752,6 @@ export default {
       this.defaultFilters.forEach((fl, flIndex) => {
         fl.checkBoxes.forEach((cb, cbIndex) => {
           let name = [cb.name];
-
-          console.log(name[0]);
 
           let found = this.filterPro.filter((pro) => {
             const tags = [

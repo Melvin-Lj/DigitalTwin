@@ -3,67 +3,80 @@
     <div>
       <div class="providers">
         <template v-for="(provider, index) in pageOfItems">
-          <div class="provider" :key="index">
-            <div class="card-header">
-              <div class="heading">
-                <h3>{{ provider.anbieter }}</h3>
-                <span class="sub">{{ provider.angebot }}</span>
+          <a :href="provider.link" :key="index">
+            <div class="provider">
+              <div class="card-header">
+                <div class="heading">
+                  <h3>{{ provider.anbieter }}</h3>
+                  <span class="sub">{{ provider.angebot }}</span>
+                </div>
               </div>
-            </div>
-            <div class="card-body">
-              <div class="info-box">
-                <h4>Spezialisierung</h4>
-                <span v-for="item in provider.spezialisierung" :key="item">{{
-                  item
-                }}</span>
-              </div>
-
-              <div class="info-box">
-                <h4>Funktionsumfang</h4>
-                <span v-for="item in provider.funktionsumfang" :key="item">{{
-                  item
-                }}</span>
-              </div>
-
-              <ul class="info-list">
+              <div class="card-body">
+               <ul class="info-list">
                 <li>
-                  <h5>Wird der Software Betrieb angeboten</h5>
-                  <span>{{ provider.wird_der_software_betrieb_angebote }}</span>
-                </li>
-                <li>
-                  <h5>Land</h5>
-                  <span>{{ provider.land }}</span>
-                </li>
-                <li>
-                  <h5>No-Code Plattform</h5>
-                  <span>{{ provider.noCode_plattform }}</span>
-                </li>
-                <li>
-                  <h5>Cloud optmiert</h5>
-                  <span>{{ provider.cloud_optmiert }}</span>
-                </li>
-                <li>
-                  <h5>Wo wird die Cloud-Lösung betrieben</h5>
-                  <span>{{ provider.wo_wird_cloud_lösung_betrieben }}</span>
-                </li>
-                <li>
-                  <h5>Können weitere Systeme angebunden werden</h5>
-                  <span>{{
-                    provider.können_weitere_systeme_angebunden_werden
+                    <h5>Produktname</h5>
+                    <span>{{
+                      provider.produktname
+                    }}</span>
+                  </li>
+                </ul>
+                <div class="info-box">
+                  <h4>Spezialisierung</h4>
+                  <span v-for="item in provider.spezialisierung" :key="item">{{
+                    item
                   }}</span>
-                </li>
-                <li>
-                  <h5>Erstellungszeitpunkt</h5>
-                  <span>{{ provider.erstellungszeitpunkt }}</span>
-                </li>
-              </ul>
+                </div>
 
-              <div class="price-box">
-                <h3>Preis</h3>
-                <span>{{ provider.preis }}</span>
+                <div class="info-box">
+                  <h4>Funktionsumfang</h4>
+                  <span v-for="item in provider.funktionsumfang" :key="item">{{
+                    item
+                  }}</span>
+                </div>
+
+                <ul class="info-list">
+                  
+                  <li>
+                    <h5>Wird der Software Betrieb angeboten</h5>
+                    <span>{{
+                      provider.wird_der_software_betrieb_angebote
+                    }}</span>
+                  </li>
+                  <li>
+                    <h5>Land</h5>
+                    <span>{{ provider.land }}</span>
+                  </li>
+                  <li>
+                    <h5>No-Code Plattform</h5>
+                    <span>{{ provider.noCode_plattform }}</span>
+                  </li>
+                  <li>
+                    <h5>Cloud optmiert</h5>
+                    <span>{{ provider.cloud_optmiert }}</span>
+                  </li>
+                  <li>
+                    <h5>Wo wird die Cloud-Lösung betrieben</h5>
+                    <span>{{ provider.wo_wird_cloud_lösung_betrieben }}</span>
+                  </li>
+                  <li>
+                    <h5>Können weitere Systeme angebunden werden</h5>
+                    <span>{{
+                      provider.können_weitere_systeme_angebunden_werden
+                    }}</span>
+                  </li>
+                  <li>
+                    <h5>Erstellungszeitpunkt</h5>
+                    <span>{{ provider.erstellungszeitpunkt }}</span>
+                  </li>
+                </ul>
+
+                <div class="price-box">
+                  <h3>Preis</h3>
+                  <span>{{ provider.preis }}</span>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </template>
       </div>
 
@@ -117,6 +130,14 @@ export default {
 
   watch: {
     filterTags: function (value) {
+      let checkTags = [];
+
+      value.forEach((element, index) => {
+        if (index != value.length - 1) {
+          checkTags.push(element);
+        }
+      });
+
       if (value.length > 0) {
         let filteredTags = this.providers.filter((pro) => {
           const tags = [
@@ -125,16 +146,12 @@ export default {
             pro.wo_wird_cloud_lösung_betrieben,
             pro.können_weitere_systeme_angebunden_werden,
           ].concat(pro.spezialisierung, pro.funktionsumfang);
-          return value.some((f) => tags.includes(f));
+          return checkTags.every((f) => tags.includes(f));
         });
 
-        let filteredOpts;
+        console.log(filteredTags);
 
-        if (filteredTags.length > 0) {
-          filteredOpts = filteredTags;
-        } else {
-          filteredOpts = this.providers;
-        }
+        let filteredOpts = filteredTags;
 
         let selOpts = value[value.length - 1];
 
@@ -208,10 +225,15 @@ export default {
   margin-top: 40px;
 }
 
+.providers a {
+  text-decoration: none;
+}
+
 .provider {
   overflow: hidden;
   background-color: #fbfbfb;
   box-shadow: 0px 3px 10px rgb(0 0 0 / 8%);
+  height: 100%;
 }
 
 .heading {
@@ -263,12 +285,14 @@ export default {
 .info-box h4 {
   margin-bottom: 10px;
   font-size: 16px;
+  color: #000;
 }
 
 .info-box span {
   border-right: 1px solid #e10707;
   padding: 0px 4px;
   display: inline-block;
+  color: #000;
 }
 
 .info-box span:first-child {
@@ -294,6 +318,7 @@ export default {
 .info-list li h5 {
   font-size: 14px;
   margin-bottom: 4px;
+  color: #000;
 }
 
 .info-list li span {
@@ -307,6 +332,10 @@ export default {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.price-box h3 {
+  color: #000;
 }
 
 .price-box span {
