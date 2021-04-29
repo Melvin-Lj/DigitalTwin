@@ -6,9 +6,6 @@
         <span>Filteroptionen zur Auswahl</span>
       </button>
       {{ pagiInfo }}
-      <button>
-        <span>Sortierung: A-Z</span> <i class="fas fa-sort-down"></i>
-      </button>
     </div>
 
     <div class="filters-form" v-show="show">
