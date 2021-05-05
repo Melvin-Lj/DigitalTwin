@@ -3,25 +3,25 @@
     <div class="container">
       <div class="footer-content">
         <div class="site-info">
-          <h4>Digital Twin Definition</h4>
+          <h4>Digitaler Zwilling Definition</h4>
           <p>
             <i
-              >"Ein Digital Twin wird durch den Einsatz von Sensoren, Internet
+              >"Ein Digitaler Zwilling wird durch den Einsatz von Sensoren, Internet
               of Things (IoT) und der Vernetzung mit Informationsquellen zum
               lebenden virtuellen Abbild eines realen Objektes."</i
             ><br><br>
-            Digitale Twins begleiten reale Objekte als Echtzeitkopien –
+            Digitale Zwillinge begleiten reale Objekte als Echtzeitkopien –
             beginnend mit ihrer Entstehung bis hin zu ihrer Entsorgung. Dabei
             werden digitale Produktinformationen mit realen Zustands- und
             Verhaltensinformationen verknüpft.<br>
-            &#10149; Mithilfe des digitalen Twins können Unternehmen Probleme frühzeitig
+            &#10149; Mithilfe der digitalen Zwillinge können Unternehmen Probleme frühzeitig
             erkennen und Verbesserungen in Entwicklung, Produktion, Vertrieb und
             Service anstoßen.
           </p>
         </div>
         <div class="contact">
           <h4>Ihr Unternehmen fehlt oder Ihre Daten haben sich geändert?</h4>
-          <a class="kontakt-btn" href="mailto:melvin.ljiko@fau.de"
+          <a class="kontakt-btn" href="https://github.com/Melvin-Lj/DigitalTwin/issues"
             >Kontaktieren Sie uns</a
           >
         </div>

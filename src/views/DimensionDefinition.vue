@@ -1,8 +1,8 @@
 <template>
   <div class="main">
     <hero
-      :title="'Digital Twin Anbieter | Marktübersicht'"
-      :sub="'Übersicht verschiedener Digital Twin Softwarelösungen'"
+      :title="'Digitaler Zwilling Anbieter | Marktübersicht'"
+      :sub="'Übersicht verschiedener Digitaler Zwilling Softwarelösungen'"
     />
     <h2>Dimension Definition</h2>
   </div>

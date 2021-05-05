@@ -3,12 +3,12 @@
     <div class="container navbar">
       <ul class="navbar-nav">
         <li><a class="nav-link" href="#provider">Anbieterübersicht</a></li>
-        <li><a class="nav-link" href="#contact">Digital Twin Definition</a></li>
+        <li><a class="nav-link" href="#contact">Digitaler Zwilling Definition</a></li>
         <li><a class="nav-link" href="#contact">Kontakt</a></li>
       </ul>
 
       <div class="brand">
-        <router-link to="home">Digital Twin Anbieter</router-link>
+        <router-link to="home">Digitaler Zwilling Anbieter</router-link>
       </div>
     </div>
   </nav>
