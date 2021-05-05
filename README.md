@@ -60,7 +60,7 @@ Natürlich bietet diese Seite keinen kompletten Überblick aller Anbieter weltwe
 
 Dies ist ein Beispiel dafür, wie Sie dieses Projekt lokal auf Ihrem Computer einrichten können. Befolgen Sie diese einfachen Schritte, um eine lokale Kopie zum Laufen zu bringen.
 
-### Vorraussetzungen
+### Voraussetzungen
 
 Klonen des Repositorys
    ```sh
