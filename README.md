@@ -10,20 +10,20 @@
   <summary>Inhaltsverzeichnis</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Über das Projekt</a>
+      <a href="#über-das-projekt">Über das Projekt</a>
       <ul>
-        <li><a href="#built-with">Codiert mit</a></li>
+        <li><a href="#codiert-mit">Codiert mit</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Einstieg</a>
+      <a href="#einstieg">Einstieg</a>
       <ul>
-        <li><a href="#prerequisites">Vorraussetzungen</a></li>
+        <li><a href="#voraussetzungen">Voraussetzungen</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Verwendung</a></li>
-    <li><a href="#Kontakt">Kontakt</a></li>
+    <li><a href="#verwendung">Verwendung</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
   </ol>
 </details>
 
@@ -104,4 +104,4 @@ Haben Sie Ihren Anbieter gefunden oder haben Sie Interesse an einem Anbieter?
 
 Haben Sie Fragen oder Verbesserungsvorschläge?
 
-Lassen Sie eine Nachricht in unseren GitHub Issues: [https://github.com/Melvin-Lj/DigitalTwin/issues]
+Lassen Sie eine Nachricht in unseren GitHub Issues: https://github.com/Melvin-Lj/DigitalTwin/issues
