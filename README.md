@@ -1,5 +1,5 @@
 <!-- PROJECT LOGO -->
-<br />
+<p>
   <h3 align="center">Digitaler Zwilling Anbieter | Marktübersicht</h3><br>
 </p>
 
