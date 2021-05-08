@@ -3,7 +3,7 @@
     <div class="action-header">
       <button @click="show = !show">
         <i class="fas fa-sliders-h"></i>
-        <span>Filteroptionen zur Auswahl</span>
+        <span>Filter options</span>
       </button>
       {{ pagiInfo }}
     </div>
@@ -50,7 +50,7 @@
                 href="#"
                 class="toggle_btn"
               >
-                {{ filter.limit_by === 4 ? "+ mehr" : "- weniger" }}
+                {{ filter.limit_by === 4 ? "+ more" : "- less" }}
               </a>
             </ul>
           </div>
@@ -58,11 +58,11 @@
       </template>
 
       <div class="filter-item">
-        <div class="filter-title">Cloud - Lösung</div>
+        <div class="filter-title">Cloud - Solution</div>
         <div class="filter-body">
           <v-select
             class="filtetr-select"
-            placeholder="Bitte auswählen"
+            placeholder="Please select"
             label="lable"
             @input="ApplyFilter"
             :reduce="(lable) => lable.id"
@@ -73,11 +73,11 @@
       </div>
 
       <div class="filter-item">
-        <div class="filter-title">Betrieb der Software</div>
+        <div class="filter-title">Operation of the software</div>
         <div class="filter-body">
           <v-select
             class="filtetr-select"
-            placeholder="Bitte auswählen"
+            placeholder="Please select"
             label="lable"
             @input="ApplyFilter"
             :reduce="(lable) => lable.id"
@@ -92,7 +92,7 @@
         <div class="filter-body">
           <v-select
             class="filtetr-select"
-            placeholder="Bitte auswählen"
+            placeholder="Please select"
             label="lable"
             @input="ApplyFilter"
             :reduce="(lable) => lable.id"
@@ -103,11 +103,11 @@
       </div>
 
       <div class="filter-item">
-        <div class="filter-title">Erstellungszeitpunkt</div>
+        <div class="filter-title">Creation time</div>
         <div class="filter-body">
           <v-select
             class="filtetr-select"
-            placeholder="Bitte auswählen"
+            placeholder="Please select"
             label="lable"
             @input="ApplyFilter"
             :reduce="(lable) => lable.id"
@@ -122,8 +122,7 @@
         Filter anwenden
       </button> -->
       <button @click="reset" class="rest-btn" v-show="show">
-        Filter zurücksetzen
-      </button>
+        Reset      </button>
     </div>
   </div>
 </template>
@@ -144,7 +143,7 @@ export default {
       providers: Providers,
       defaultFilters: [
         {
-          title: "Angebot",
+          title: "Offer",
           checkBoxes: [
             {
               name: "Consulting + Software",
@@ -162,91 +161,91 @@ export default {
           limit_by: 4,
         },
         {
-          title: "Spezalisierung",
+          title: "Specialization",
           checkBoxes: [
             {
-              name: "Agrarwirtschaft",
-              value: "Agrarwirtschaft",
+              name: "Agricultural economics",
+              value: "Agricultural economics",
             },
             {
-              name: "Audiobranche",
-              value: "Audiobranche",
+              name: "Audio industry",
+              value: "Audio industry",
             },
             {
-              name: "Automobil",
-              value: "Automobil",
+              name: "Automotive",
+              value: "Automotive",
             },
             {
-              name: "Baubranche",
-              value: "Baubranche",
+              name: "Construction industry",
+              value: "Construction industry",
             },
             {
-              name: "Biowissenschaft",
-              value: "Biowissenschaft",
+              name: "Life science",
+              value: "Life science",
             },
             {
-              name: "Elektrotechnik",
-              value: "Elektrotechnik",
+              name: "Electrical engineering",
+              value: "Electrical engineering",
             },
             {
-              name: "Energie",
-              value: "Energie",
+              name: "Energy",
+              value: "Energy",
             },
             {
-              name: "Geschäftsprozesse",
-              value: "Geschäftsprozesse",
+              name: "Business processes",
+              value: "Business processes",
             },
             {
-              name: "Gesundheitswesen",
-              value: "Gesundheitswesen",
+              name: "Healthcare",
+              value: "Healthcare",
             },
             {
               name: "High - Tech",
               value: "High - Tech",
             },
             {
-              name: "Immobilienmanagement",
-              value: "Immobilienmanagement",
+              name: "Property management",
+              value: "Property management",
             },
             {
-              name: "Infrastruktur",
-              value: "Infrastruktur",
+              name: "Infrastructur",
+              value: "Infrastructur",
             },
             {
               name: "Internet of Things App",
               value: "Internet of Things App",
             },
             {
-              name: "Kommunikation",
-              value: "Kommunikation",
+              name: "Communication",
+              value: "Communication",
             },
             {
-              name: "Logistik",
-              value: "Logistik",
+              name: "Logistics",
+              value: "Logistics",
             },
             {
-              name: "Luft- & Raumfahrt",
-              value: "Luft- & Raumfahrt",
+              name: "Aerospace",
+              value: "Aerospace",
             },
             {
-              name: "Maschinen- & Anlagenbau",
-              value: "Maschinen- & Anlagenbau",
+              name: "Mechanical engineering",
+              value: "Mechanical engineering",
             },
             {
-              name: "Öffentlicher Sektor",
-              value: "Öffentlicher Sektor",
+              name: "Public sector",
+              value: "Public sector",
             },
             {
-              name: "Produktion",
-              value: "Produktion",
+              name: "Production",
+              value: "Production",
             },
             {
-              name: "Versorgungswirtschaft",
-              value: "Versorgungswirtschaft",
+              name: "Utilities",
+              value: "Utilities",
             },
             {
-              name: "Verteidigung",
-              value: "Verteidigung",
+              name: "Defense",
+              value: "Defense",
             },
             {
               name: "Virtual Reality / Argumented Reality",
@@ -256,23 +255,23 @@ export default {
           limit_by: 4,
         },
         {
-          title: "Land",
+          title: "Country",
           checkBoxes: [
             {
-              name: "Australien",
-              value: "Australien",
+              name: "Australia",
+              value: "Australia",
             },
             {
-              name: "Deutschland",
-              value: "Deutschland",
+              name: "Germany",
+              value: "Germany",
             },
             {
-              name: "Frankreich",
-              value: "Frankreich",
+              name: "France",
+              value: "France",
             },
             {
-              name: "Schweiz",
-              value: "Schweiz",
+              name: "Switzerland",
+              value: "Switzerland",
             },
             {
               name: "United States",
@@ -282,23 +281,23 @@ export default {
           limit_by: 4,
         },
         {
-          title: "Funktionsumfang",
+          title: "Range of functions",
           checkBoxes: [
             {
-              name: "Aftermarket-Dienstleistungen",
-              value: "Aftermarket-Dienstleistungen",
+              name: "Aftermarket services",
+              value: "Aftermarket services",
             },
             {
-              name: "Akkustische Simulation",
-              value: "Akkustische Simulation",
+              name: "Acoustic simulation",
+              value: "Acoustic simulation",
             },
             {
               name: "Data Sharing",
               value: "Data Sharing",
             },
             {
-              name: "Datenanalyse & Systemlösung",
-              value: "Datenanalyse & Systemlösung",
+              name: "Data analysis & system solution",
+              value: "Data analysis & system solution",
             },
             {
               name: "Design",
@@ -309,24 +308,24 @@ export default {
               value: "Digital Engeenering",
             },
             {
-              name: "Digitale Fabrik",
-              value: "Digitale Fabrik",
+              name: "Digital factory",
+              value: "Digital factory",
             },
             {
-              name: "Digitales Gebäudemanagemnt",
-              value: "Digitales Gebäudemanagemnt",
+              name: "Digital building management",
+              value: "Digital building management",
             },
             {
-              name: "Digitalisierung von Geschäftsprozessen",
-              value: "Digitalisierung von Geschäftsprozessen",
+              name: "Digitalization of business processes",
+              value: "Digitalization of business processes",
             },
             {
               name: "Enterprise Information Management",
               value: "Enterprise Information Management",
             },
             {
-              name: "Künstliche Intelligenz",
-              value: "Künstliche Intelligenz",
+              name: "Artificial intelligence",
+              value: "Artificial intelligence",
             },
             {
               name: "Machine Learning",
@@ -337,30 +336,30 @@ export default {
               value: "Product-Lifecycle-Management",
             },
             {
-              name: "Robotik",
-              value: "Robotik",
+              name: "Robotics",
+              value: "Robotics",
             },
             {
-              name: "Visualisierung / Simulation",
-              value: "Visualisierung / Simulation",
+              name: "Visualization / Simulation",
+              value: "Visualization / Simulation",
             },
           ],
           limit_by: 4,
         },
         {
-          title: "Betrieb der Cloud",
+          title: "Operation of the cloud",
           checkBoxes: [
             {
-              name: "Kunden",
-              value: "Kunden",
+              name: "Customer",
+              value: "Customer",
             },
             {
-              name: "Unternehmen",
-              value: "Unternehmen",
+              name: "Company",
+              value: "Company",
             },
             {
-              name: "Unternehmen oder Kunden",
-              value: "Unternehmen oder Kunden",
+              name: "Company or Customer",
+              value: "Company or Customer",
             },
           ],
           limit_by: 4,
@@ -368,7 +367,7 @@ export default {
       ],
       filters: [
         {
-          title: "Angebot",
+          title: "Offer",
           checkBoxes: [
             {
               name: "Consulting + Software",
@@ -386,91 +385,91 @@ export default {
           limit_by: 4,
         },
         {
-          title: "Spezalisierung",
+          title: "Specialization",
           checkBoxes: [
             {
-              name: "Agrarwirtschaft",
-              value: "Agrarwirtschaft",
+              name: "Agricultural economics",
+              value: "Agricultural economics",
             },
             {
-              name: "Audiobranche",
-              value: "Audiobranche",
+              name: "Audio industry",
+              value: "Audio industry",
             },
             {
-              name: "Automobil",
-              value: "Automobil",
+              name: "Automotive",
+              value: "Automotive",
             },
             {
-              name: "Baubranche",
-              value: "Baubranche",
+              name: "Construction industry",
+              value: "Construction industry",
             },
             {
-              name: "Biowissenschaft",
-              value: "Biowissenschaft",
+              name: "Life science",
+              value: "Life science",
             },
             {
-              name: "Elektrotechnik",
-              value: "Elektrotechnik",
+              name: "Electrical engineering",
+              value: "Electrical engineering",
             },
             {
-              name: "Energie",
-              value: "Energie",
+              name: "Energy",
+              value: "Energy",
             },
             {
-              name: "Geschäftsprozesse",
-              value: "Geschäftsprozesse",
+              name: "Business processes",
+              value: "Business processes",
             },
             {
-              name: "Gesundheitswesen",
-              value: "Gesundheitswesen",
+              name: "Healthcare",
+              value: "Healthcare",
             },
             {
               name: "High - Tech",
               value: "High - Tech",
             },
             {
-              name: "Immobilienmanagement",
-              value: "Immobilienmanagement",
+              name: "Property management",
+              value: "Property management",
             },
             {
-              name: "Infrastruktur",
-              value: "Infrastruktur",
+              name: "Infrastructur",
+              value: "Infrastructur",
             },
             {
               name: "Internet of Things App",
               value: "Internet of Things App",
             },
             {
-              name: "Kommunikation",
-              value: "Kommunikation",
+              name: "Communication",
+              value: "Communication",
             },
             {
-              name: "Logistik",
-              value: "Logistik",
+              name: "Logistics",
+              value: "Logistics",
             },
             {
-              name: "Luft- & Raumfahrt",
-              value: "Luft- & Raumfahrt",
+              name: "Aerospace",
+              value: "Aerospace",
             },
             {
-              name: "Maschinen- & Anlagenbau",
-              value: "Maschinen- & Anlagenbau",
+              name: "Mechanical engineering",
+              value: "Mechanical engineering",
             },
             {
-              name: "Öffentlicher Sektor",
-              value: "Öffentlicher Sektor",
+              name: "Public sector",
+              value: "Public sector",
             },
             {
-              name: "Produktion",
-              value: "Produktion",
+              name: "Production",
+              value: "Production",
             },
             {
-              name: "Versorgungswirtschaft",
-              value: "Versorgungswirtschaft",
+              name: "Utilities",
+              value: "Utilities",
             },
             {
-              name: "Verteidigung",
-              value: "Verteidigung",
+              name: "Defense",
+              value: "Defense",
             },
             {
               name: "Virtual Reality / Argumented Reality",
@@ -480,23 +479,23 @@ export default {
           limit_by: 4,
         },
         {
-          title: "Land",
+          title: "Country",
           checkBoxes: [
             {
-              name: "Australien",
-              value: "Australien",
+              name: "Australia",
+              value: "Australia",
             },
             {
-              name: "Deutschland",
-              value: "Deutschland",
+              name: "Germany",
+              value: "Germany",
             },
             {
-              name: "Frankreich",
-              value: "Frankreich",
+              name: "France",
+              value: "France",
             },
             {
-              name: "Schweiz",
-              value: "Schweiz",
+              name: "Switzerland",
+              value: "Switzerland",
             },
             {
               name: "United States",
@@ -506,23 +505,23 @@ export default {
           limit_by: 4,
         },
         {
-          title: "Funktionsumfang",
+          title: "Range of functions",
           checkBoxes: [
             {
-              name: "Aftermarket-Dienstleistungen",
-              value: "Aftermarket-Dienstleistungen",
+              name: "Aftermarket services",
+              value: "Aftermarket services",
             },
             {
-              name: "Akkustische Simulation",
-              value: "Akkustische Simulation",
+              name: "Acoustic simulation",
+              value: "Acoustic simulation",
             },
             {
               name: "Data Sharing",
               value: "Data Sharing",
             },
             {
-              name: "Datenanalyse & Systemlösung",
-              value: "Datenanalyse & Systemlösung",
+              name: "Data analysis & system solution",
+              value: "Data analysis & system solution",
             },
             {
               name: "Design",
@@ -533,24 +532,24 @@ export default {
               value: "Digital Engeenering",
             },
             {
-              name: "Digitale Fabrik",
-              value: "Digitale Fabrik",
+              name: "Digital factory",
+              value: "Digital factory",
             },
             {
-              name: "Digitales Gebäudemanagemnt",
-              value: "Digitales Gebäudemanagemnt",
+              name: "Digital building management",
+              value: "Digital building management",
             },
             {
-              name: "Digitalisierung von Geschäftsprozessen",
-              value: "Digitalisierung von Geschäftsprozessen",
+              name: "Digitalization of business processes",
+              value: "Digitalization of business processes",
             },
             {
               name: "Enterprise Information Management",
               value: "Enterprise Information Management",
             },
             {
-              name: "Künstliche Intelligenz",
-              value: "Künstliche Intelligenz",
+              name: "Artificial intelligence",
+              value: "Artificial intelligence",
             },
             {
               name: "Machine Learning",
@@ -561,30 +560,30 @@ export default {
               value: "Product-Lifecycle-Management",
             },
             {
-              name: "Robotik",
-              value: "Robotik",
+              name: "Robotics",
+              value: "Robotics",
             },
             {
-              name: "Visualisierung / Simulation",
-              value: "Visualisierung / Simulation",
+              name: "Visualization / Simulation",
+              value: "Visualization / Simulation",
             },
           ],
           limit_by: 4,
         },
         {
-          title: "Betrieb der Cloud",
+          title: "Operation of the cloud",
           checkBoxes: [
             {
-              name: "Kunden",
-              value: "Kunden",
+              name: "Customer",
+              value: "Customer",
             },
             {
-              name: "Unternehmen",
-              value: "Unternehmen",
+              name: "Company",
+              value: "Company",
             },
             {
-              name: "Unternehmen oder Kunden",
-              value: "Unternehmen oder Kunden",
+              name: "Company or Customer",
+              value: "Company or Customer",
             },
           ],
           limit_by: 4,
@@ -594,32 +593,32 @@ export default {
         {
           name: "cloud_optmiert",
           value: [
-            { lable: "Ja", id: "Ja" },
-            { lable: "Nein", id: "Nein" },
+            { lable: "Yes", id: "Yes" },
+            { lable: "No", id: "No" },
             { lable: "n.A.", id: "n.A." },
           ],
         },
         {
           name: "wird_der_software_betrieb_angebote",
           value: [
-            { lable: "Ja", id: "Ja" },
-            { lable: "Nein", id: "Nein" },
+            { lable: "Yes", id: "Yes" },
+            { lable: "No", id: "No" },
           ],
         },
         {
           name: "noCode_plattform",
           value: [
-            { lable: "Ja", id: "Ja" },
-            { lable: "Nein", id: "Nein" },
+            { lable: "Yes", id: "Yes" },
+            { lable: "No", id: "No" },
           ],
         },
         {
           name: "erstellungszeitpunkt",
           value: [
-            { lable: "Vor physischen Zwilling", id: "Vor physischen Zwilling" },
+            { lable: "Before physical twin", id: "Before physical twin" },
             {
-              lable: "Nach physischen Zwilling",
-              id: "Nach physischen Zwilling",
+              lable: "After physical twin",
+              id: "After physical twin",
             },
           ],
         },
@@ -628,32 +627,32 @@ export default {
         {
           name: "cloud_optmiert",
           value: [
-            { lable: "Ja", id: "Ja" },
-            { lable: "Nein", id: "Nein" },
+            { lable: "Yes", id: "Yes" },
+            { lable: "No", id: "No" },
             { lable: "n.A.", id: "n.A." },
           ],
         },
         {
           name: "wird_der_software_betrieb_angebote",
           value: [
-            { lable: "Ja", id: "Ja" },
-            { lable: "Nein", id: "Nein" },
+            { lable: "Yes", id: "Yes" },
+            { lable: "No", id: "No" },
           ],
         },
         {
           name: "noCode_plattform",
           value: [
-            { lable: "Ja", id: "Ja" },
-            { lable: "Nein", id: "Nein" },
+            { lable: "Yes", id: "Yes" },
+            { lable: "No", id: "No" },
           ],
         },
         {
           name: "erstellungszeitpunkt",
           value: [
-            { lable: "Vor physischen Zwilling", id: "Vor physischen Zwilling" },
+            { lable: "Before physical twin", id: "Before physical twin" },
             {
-              lable: "Nach physischen Zwilling",
-              id: "Nach physischen Zwilling",
+              lable: "After physical twin",
+              id: "After physical twin",
             },
           ],
         },

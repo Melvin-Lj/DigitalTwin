@@ -1,8 +1,8 @@
 <template>
   <div class="main">
     <hero
-      :title="'Digital Twin Anbieter | Marktübersicht'"
-      :sub="'Übersicht verschiedener Digital Twin Softwarelösungen'"
+      :title="'Digital Twin Provider | Market overview'"
+      :sub="'Overview of various digital twin software solutions'"
     />
     <h2>Providers</h2>
   </div>

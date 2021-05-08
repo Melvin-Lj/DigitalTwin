@@ -5,24 +5,16 @@
         <div class="site-info">
           <h4>Digital Twin Definition</h4>
           <p>
-            <i
-              >"Ein Digital Twin wird durch den Einsatz von Sensoren, Internet
-              of Things (IoT) und der Vernetzung mit Informationsquellen zum
-              lebenden virtuellen Abbild eines realen Objektes."</i
-            ><br><br>
-            Digitale Twins begleiten reale Objekte als Echtzeitkopien –
-            beginnend mit ihrer Entstehung bis hin zu ihrer Entsorgung. Dabei
-            werden digitale Produktinformationen mit realen Zustands- und
-            Verhaltensinformationen verknüpft.<br>
-            &#10149; Mithilfe des digitalen Twins können Unternehmen Probleme frühzeitig
-            erkennen und Verbesserungen in Entwicklung, Produktion, Vertrieb und
-            Service anstoßen.
+            <i>"A digital twin becomes a living virtual image of a real object through the use of sensors, the Internet of Things (IoT) and networking with information sources."</i>
+            <br><br>
+            Digital twins accompany real objects as real-time copies - starting with their creation through to their disposal. Digital product information is linked with real status and behavior information.<br>
+            &#10149; With the help of the digital twins, companies can identify problems at an early stage and initiate improvements in development, production, sales and service.
           </p>
         </div>
         <div class="contact">
-          <h4>Ihr Unternehmen fehlt oder Ihre Daten haben sich geändert?</h4>
-          <a class="kontakt-btn" href="mailto:melvin.ljiko@fau.de"
-            >Kontaktieren Sie uns</a
+          <h4>Your company is missing or your data has changed?</h4>
+          <a class="kontakt-btn" href="https://github.com/Melvin-Lj/DigitalTwin/issues"
+            >Contact Us</a
           >
         </div>
       </div>

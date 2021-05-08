@@ -14,21 +14,21 @@
               <div class="card-body">
                <ul class="info-list">
                 <li>
-                    <h5>Produktname</h5>
+                    <h5>Product name</h5>
                     <span>{{
                       provider.produktname
                     }}</span>
                   </li>
                 </ul>
                 <div class="info-box">
-                  <h4>Spezialisierung</h4>
+                  <h4>Specialization</h4>
                   <span v-for="item in provider.spezialisierung" :key="item">{{
                     item
                   }}</span>
                 </div>
 
                 <div class="info-box">
-                  <h4>Funktionsumfang</h4>
+                  <h4>Range of functions</h4>
                   <span v-for="item in provider.funktionsumfang" :key="item">{{
                     item
                   }}</span>
@@ -37,13 +37,13 @@
                 <ul class="info-list">
                   
                   <li>
-                    <h5>Wird der Software Betrieb angeboten</h5>
+                    <h5>Is the software operation offered</h5>
                     <span>{{
                       provider.wird_der_software_betrieb_angebote
                     }}</span>
                   </li>
                   <li>
-                    <h5>Land</h5>
+                    <h5>Country</h5>
                     <span>{{ provider.land }}</span>
                   </li>
                   <li>
@@ -51,27 +51,27 @@
                     <span>{{ provider.noCode_plattform }}</span>
                   </li>
                   <li>
-                    <h5>Cloud optmiert</h5>
+                    <h5>Cloud optmized</h5>
                     <span>{{ provider.cloud_optmiert }}</span>
                   </li>
                   <li>
-                    <h5>Wo wird die Cloud-Lösung betrieben</h5>
+                    <h5>Where is the cloud solution operated</h5>
                     <span>{{ provider.wo_wird_cloud_lösung_betrieben }}</span>
                   </li>
                   <li>
-                    <h5>Können weitere Systeme angebunden werden</h5>
+                    <h5>Can other systems be connected</h5>
                     <span>{{
                       provider.können_weitere_systeme_angebunden_werden
                     }}</span>
                   </li>
                   <li>
-                    <h5>Erstellungszeitpunkt</h5>
+                    <h5>Creation time</h5>
                     <span>{{ provider.erstellungszeitpunkt }}</span>
                   </li>
                 </ul>
 
                 <div class="price-box">
-                  <h3>Preis</h3>
+                  <h3>Price</h3>
                   <span>{{ provider.preis }}</span>
                 </div>
               </div>

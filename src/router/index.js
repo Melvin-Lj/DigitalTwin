@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import DimensionDefinition from '../views/DimensionDefinition.vue'
 import Providers from '../views/Providers.vue'
+import Compare from '../views/Compare.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/providers',
     name: 'providers',
     component: Providers
+  },
+  {
+    path: '/compare',
+    name: 'compare',
+    component: Compare,
   },
 ]
 

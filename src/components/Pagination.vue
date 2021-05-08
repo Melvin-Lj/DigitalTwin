@@ -179,9 +179,9 @@ export default {
 
       let total = items.length;
 
-      let pagInfo = `Zeige ${pager.startIndex + 1} - ${
+      let pagInfo = `Show ${pager.startIndex + 1} - ${
         pager.endIndex + 1
-      } von ${total}`;
+      } of ${total}`;
 
       // emit change page event to parent component
       this.$emit("changePage", pageOfItems, pagInfo);
