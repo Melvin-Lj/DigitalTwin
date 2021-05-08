@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
 	<nav id="navbar">
 		<div class="container navbar">
 			<ul class="navbar-nav">
@@ -15,21 +14,6 @@
 			</div>
 		</div>
 	</nav>
-=======
-  <nav id="navbar">
-    <div class="container navbar">
-      <ul class="navbar-nav">
-        <li><a class="nav-link" href="#provider">Anbieterübersicht</a></li>
-        <li><a class="nav-link" href="#contact">Digitaler Zwilling Definition</a></li>
-        <li><a class="nav-link" href="#contact">Kontakt</a></li>
-      </ul>
-
-      <div class="brand">
-        <router-link to="home">Digitaler Zwilling Anbieter</router-link>
-      </div>
-    </div>
-  </nav>
->>>>>>> 4b84e330a979764c450490d17eea4ff7b0c47a20
 </template>
 
 <script>
