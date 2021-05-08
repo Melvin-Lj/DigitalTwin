@@ -10,7 +10,7 @@
 					<h2>Compare Providers</h2>
 				</div>
 			</div>
-			<div class="topic"><h3>Please select 2 providers from dropdowns</h3></div>
+			<div class="topic"><h3>Please select 2 providers to compare</h3></div>
 			<div class="row">
 				<div class="column">
 					<v-select
