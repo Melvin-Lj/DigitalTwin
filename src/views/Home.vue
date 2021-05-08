@@ -1,12 +1,18 @@
 <template>
   <div class="main">
     <hero
+<<<<<<< HEAD
       :title="'Digital Twin Provider | Market overview'"
       :sub="'Overview of various digital twin software solutions'"
+=======
+      :title="'Digitaler Zwilling Anbieter | Marktübersicht'"
+      :sub="'Übersicht verschiedener Digitaler Zwilling Softwarelösungen'"
+>>>>>>> 4b84e330a979764c450490d17eea4ff7b0c47a20
     />
     <div class="container">
       <div class="header">
         <div class="flex-item">
+<<<<<<< HEAD
           <h2>List of digital twin providers</h2>
         </div>
         <div class="flex-item">
@@ -14,6 +20,15 @@
             Here you can find a 
             <b>overview of the digital twin software solutions on the market</b>.
             You can limit the search by setting the <b>filter</b>.
+=======
+          <h2>Liste der Digitaler Zwilling Anbieter</h2>
+        </div>
+        <div class="flex-item">
+          <p>
+            Hier finden Sie eine
+            <b>Übersicht der Digitaler Zwilling Softwarelösungen auf dem Markt</b>.
+            Sie können die Suche durch Setzen der <b>Filter</b> einschränken.
+>>>>>>> 4b84e330a979764c450490d17eea4ff7b0c47a20
           </p>
         </div>
       </div>

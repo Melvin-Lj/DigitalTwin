@@ -3,8 +3,9 @@
     <div class="container">
       <div class="footer-content">
         <div class="site-info">
-          <h4>Digital Twin Definition</h4>
+          <h4>Digitaler Zwilling Definition</h4>
           <p>
+<<<<<<< HEAD
             <i>"A digital twin becomes a living virtual image of a real object through the use of sensors, the Internet of Things (IoT) and networking with information sources."</i>
             <br><br>
             Digital twins accompany real objects as real-time copies - starting with their creation through to their disposal. Digital product information is linked with real status and behavior information.<br>
@@ -15,6 +16,26 @@
           <h4>Your company is missing or your data has changed?</h4>
           <a class="kontakt-btn" href="https://github.com/Melvin-Lj/DigitalTwin/issues"
             >Contact Us</a
+=======
+            <i
+              >"Ein Digitaler Zwilling wird durch den Einsatz von Sensoren, Internet
+              of Things (IoT) und der Vernetzung mit Informationsquellen zum
+              lebenden virtuellen Abbild eines realen Objektes."</i
+            ><br><br>
+            Digitale Zwillinge begleiten reale Objekte als Echtzeitkopien –
+            beginnend mit ihrer Entstehung bis hin zu ihrer Entsorgung. Dabei
+            werden digitale Produktinformationen mit realen Zustands- und
+            Verhaltensinformationen verknüpft.<br>
+            &#10149; Mithilfe der digitalen Zwillinge können Unternehmen Probleme frühzeitig
+            erkennen und Verbesserungen in Entwicklung, Produktion, Vertrieb und
+            Service anstoßen.
+          </p>
+        </div>
+        <div class="contact">
+          <h4>Ihr Unternehmen fehlt oder Ihre Daten haben sich geändert?</h4>
+          <a class="kontakt-btn" href="https://github.com/Melvin-Lj/DigitalTwin/issues"
+            >Kontaktieren Sie uns</a
+>>>>>>> 4b84e330a979764c450490d17eea4ff7b0c47a20
           >
         </div>
       </div>

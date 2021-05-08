@@ -73,10 +73,17 @@
       ],
       "noCode_plattform": "Yes",
       "preis": "n.A.",
+<<<<<<< HEAD
       "cloud_optmiert": "Yes",
       "wo_wird_cloud_lösung_betrieben": "Company or Customer",
       "können_weitere_systeme_angebunden_werden": "Yes",
       "erstellungszeitpunkt": "After physical twin"
+=======
+      "cloud_optmiert": "Ja",
+      "wo_wird_cloud_lösung_betrieben": "Unternehmen oder Kunden",
+      "können_weitere_systeme_angebunden_werden": "Ja",
+      "erstellungszeitpunkt": "Nach physischen Zwilling"
+>>>>>>> 4b84e330a979764c450490d17eea4ff7b0c47a20
     },
     {
         "id": "4",
