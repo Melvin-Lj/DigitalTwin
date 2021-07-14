@@ -746,12 +746,12 @@
         "wird_der_software_betrieb_angebote": "Yes",
         "spezialisierung": [
           "Automotive",
-          "Energy",
           "Business processes",
+          "Energy",
           "Healthcare",
           "Infrastructur",
           "Logistics",
-          "Mechanical engineering"
+          "Production"
         ],
         "land": "Germany",
         "funktionsumfang": [
@@ -842,7 +842,7 @@
         ],
         "noCode_plattform": "Yes",
         "preis": "0,002 - 0,0045 US-Cent pro MByte",
-        "cloud_optmiert": "Ja",
+        "cloud_optmiert": "Yes",
         "wo_wird_cloud_lösung_betrieben": "Company",
         "können_weitere_systeme_angebunden_werden": "Yes",
         "erstellungszeitpunkt": "After physical twin"
